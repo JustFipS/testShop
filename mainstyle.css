@@ -170,14 +170,13 @@ summary{
         user-select: none;
     }
   }
-.products{
-    margin: 1 auto;
+  .products {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; 
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
     margin: 12px;
-}
+  }
 .prod{
     background-color: #0e0e0e61;
     border-radius: 25px;
