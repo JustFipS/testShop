@@ -46,7 +46,7 @@ h2{
 .loading{
     animation-name: hidee;
     animation-duration: 2s;
-    animation: hidee 21s ease-in-out forwards;
+    animation: hidee 2s ease-in-out forwards;
 }
 @keyframes hidee {
     0% {
@@ -64,4 +64,23 @@ h2{
   }
 summary{
     position: absolute;
+}
+
+.product{
+    right: 0;
+    left: 0;
+    justify-content: center;
+    text-align: center;
+    background-color: chocolate;
+    margin-left: calc(var(--sizeindex) * 5);
+    margin-right: calc(var(--sizeindex) * 5);
+}
+.photo{
+
+}
+.description{
+
+}
+p{
+    font-size: calc(var(--sizeindex) * 1.4);
 }
