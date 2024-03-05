@@ -27,9 +27,7 @@ h2{
     font-family: "Comforter Brush";
     font-weight: 1;
 }
-summary{
-    position: absolute;
-}
+
 .load{
     z-index: 1;
     font-size: calc(var(--sizeindex) * 10);
@@ -48,7 +46,7 @@ summary{
 .loading{
     animation-name: hidee;
     animation-duration: 2s;
-    animation: hidee 2s ease-in-out forwards;
+    animation: hidee 21s ease-in-out forwards;
 }
 @keyframes hidee {
     0% {
@@ -64,58 +62,6 @@ summary{
 
     }
   }
-  .products {
-    
-    z-index: 2;
-    left: 0;
-    right: 0;
-    place-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 12px;
-  }
-.prod{
-    cursor: url(assets/cursor.png), pointer;
-    left: 0;
-    right: 0;
-    background-color: #0e0e0e61;
-    border-radius: 25px;
-    padding: 11px;
-    text-align: center;
-    margin: 111px;
+summary{
+    position: absolute;
 }
-.text{
-    cursor: url(assets/cursor.png), pointer;
-    left: 0;
-    right: 0;
-    text-align: center;
-    font-size:  25px;
-    color: #cacbc7;
-    -webkit-text-stroke-width: 1px;
-    justify-content: space-between;
-}
-a{
-    cursor: url(assets/cursor.png), pointer;
-    font-weight: 2pc;
-    font-size: 25px;
-    font-family: "Comfortaa", sans-serif;;
-    color: #cacbc7;
-    text-decoration: none;
-}
-p{
-    
-    font-family: "Comfortaa", sans-serif;;
-    color: #cacbc7;
-    text-decoration: none;
-}
-footer{
-    display: flex;
-    flex-wrap: wrap;
-    left: 0;
-    right: 0;
-    justify-content: center;
-    color: #cacbc7;
-    padding: calc(var(--sizeindex) * 1.4)  
- }
