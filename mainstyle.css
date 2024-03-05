@@ -171,6 +171,9 @@ summary{
     }
   }
   .products {
+    left: 0;
+    right: 0;
+    place-items: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -178,6 +181,8 @@ summary{
     margin: 12px;
   }
 .prod{
+    left: 0;
+    right: 0;
     background-color: #0e0e0e61;
     border-radius: 25px;
     padding: 11px;
