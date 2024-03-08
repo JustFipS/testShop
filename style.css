@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@600&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+
+
+
+
+:root{
+    --sizeindex: calc(1vw + 1vh)
+}
+ body::-webkit-scrollbar {
+	width: 12px;
+	background-color: #000000;
+}
+body::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #ee000000;
+}
+body::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+	background-color: rgba(191, 0, 255, 0.173);
+} 
+html, body{
+width: 100%;
+height: 185%;
+overflow:hiden ;
+background: linear-gradient(black 30%, #6D0D92 70%);
+scroll-behavior: smooth;
+}
+
+h2{
+ color: rgb(237, 235, 235);
+ text-shadow: #9c0bd1 25px 3px 12px;
+ font-family: 'Sedgwick Ave Display', cursive;
+ opacity: 75%;
+ font-size: calc(var(--sizeindex) * 6);
+ position: absolute;
+ top: 35%;          
+ z-index: 1;
+ user-select: none;
+ left: 0;
+ right: 0;
+ text-align: center;
+}
+footer{
+ position: sticky;
+ z-index: 1;
+ text-align: center;    
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ margin: calc(var(--sizeindex) * 1);
+}
+a, .fact{
+  font-family: 'Sedgwick Ave Display', cursive;
+  position: sticky;
+  z-index: 1;
+  font-size: calc(var(--sizeindex) * 0.7);
+  user-select: none;
+  color: rgb(255, 255, 255);
+}
+.fact{
+    opacity: 30%;
+    user-select: none;
+}
+
+br{
+    user-select: none;
+}
+*{
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+  cursor: grabbing;
+}
+p{
+  color: rgb(176, 7, 176);
+  text-shadow: hsla(292, 100%, 50%, 0.479) 10px 2px 4px;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: calc(var(--sizeindex) * 1.3);
+  text-align: center;    
+  position: absolute; 
+  bottom: calc(var(--sizeindex) * -68);
+  left: 0;
+  right: 0;
+  text-align: center;
+  user-select: none;
+  pointer-events: none;
+}
+summary{
+  position: absolute;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+  display:block;
+}
+.logo{
+  left: 0;
+  user-select: none;
+  pointer-events: none;
+}
+header{
+  float: right;
+  margin-right: 100px;
+  margin-top: 1pc;
+}
