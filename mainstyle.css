@@ -33,18 +33,19 @@ summary{
     position: absolute;
 }
 .load{
-    z-index: 1;
+    z-index: 13;
     font-size: calc(var(--sizeindex) * 10);
     font-family: "Rock 3D", system-ui;
     color: rgb(246, 246, 246);
     background-color: #000;
     padding:calc(var(--sizeindex) * 1);
-    margin-top: calc(var(--sizeindex) * 3.3);
+    padding-top: calc(var(--sizeindex) * 7.3);
     text-align: center;    
-    position:absolute;
+    position: fixed; 
+    top: 0;
     left: 0;
     right: 0;
-    height: calc(var(--sizeindex) * 100);
+    height: 100pc;
     pointer-events: none;
   }
 .loading{
@@ -85,7 +86,7 @@ summary{
     border-radius: 25px;
     padding: 11px;
     text-align: center;
-    margin: 100px;
+    margin:  calc(var(--sizeindex) * 2) 
 }
 .text{
     left: 0;
